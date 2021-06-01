@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Rishabh Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<!--<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>-->
+
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="index.html" class="logo">portfolio</a>
+<!--
+             <img src="giphy.gif" style="width: 120px;height: 120px;transform: rotate(35deg);position: absolute;
+right: 9%;top:-0.2rem">
+-->
+            <div id="toggle" onclick="toggle()"> </div>
+           
+        </header>
+
+        <div class="content">
+            <h2 style="text-shadow: 2px 2px 3px #000;">Hello World <span class="wave">👋</span>,<br>I'm <span style="text-shadow: 1px 1px 1px #fff;"> Rishabh Dev</span> </h2>
+            <p>I am a <span class="line-1 anim-typewriter" style="color: #40c3ff;"><b>Front End Developer</b></span> with a demonstrated history of working on various projects.
+                <br>I am skilled in C++, Data Structure and Algorithm, HTML, Front-end Development, and Electrical Engineering.
+            </p>
+            <a href="./Rishabh_Dev_Resume-converted.pdf" id="know" target="_blank">Download CV</a>
+            
+        </div>
+        <ul class="sci">
+            <li><a href="https://github.com/rishabhdev444" target="_blank"><img src="gitHub.png" style="max-width: 40px;filter: invert(1);
+    mix-blend-mode: difference;"></a></li>
+            <li><a href="https://twitter.com/rishabhdev444" target="_blank"><img src="twitter.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/rishabhdev444/" target="_blank"><img src="linkedin.png"></a></li>
+            <!--        <li><a href="#"><img src="facebook.png"></a></li>-->
+
+        </ul>
+
+
+    </section>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+                   <li><a href="experience.html">Experience</a></li>
+              <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</body></html>
